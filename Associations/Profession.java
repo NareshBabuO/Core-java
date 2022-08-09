@@ -1,0 +1,7 @@
+enum Profession
+{
+	DOCTOR,BUSINESSMAN;
+}
+
+	
+	
