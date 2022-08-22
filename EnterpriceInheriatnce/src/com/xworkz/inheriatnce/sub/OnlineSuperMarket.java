@@ -1,8 +1,6 @@
 package com.xworkz.inheriatnce.sub;
 
-import com.xworkz.inheritance.sup.Market;
-
-public class OnlineSuperMarket extends Market {
+public class OnlineSuperMarket extends SuperMarket{
 
 	public String appName;
 	public String ordertype;
@@ -19,9 +17,12 @@ public class OnlineSuperMarket extends Market {
 		System.out.println("OSM Constructors");
 	}
 	public void printData2() {
-		System.out.println(super.area);
-		System.out.println(super.discount);
-		System.out.println(super.name);
+		System.out.println(super.area);//market
+		System.out.println(super.discount);//market
+		System.out.println(super.name);//market
+		System.out.println(super.brand);//supermarket
+		System.out.println(super.owner);//supermarket
+		System.out.println(super.budget);//supermarket
 		System.out.println(this.appName);
 		System.out.println(this.ordertype);
 		System.out.println(this.type);
