@@ -15,7 +15,7 @@ public class T20Cricket extends Cricket {
 		System.out.println("This T20 match is best man");
 		return true;
 	}
-	public void printData3()
+	public void printData()
 	{
 		super.printData();
 	}

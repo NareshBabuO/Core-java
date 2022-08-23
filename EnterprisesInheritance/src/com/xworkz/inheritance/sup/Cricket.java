@@ -6,14 +6,12 @@ public class Cricket {
 	public String captain;
 	public String gender;
 
-	public String setCountry(String country) {
+	public void setCountry(String country) {
 		this.country = country;
-		return country;
 	}
 
-	public String setCapatin(String captain) {
+	public void setCapatin(String captain) {
 		this.captain = captain;
-		return captain;
 	}
 
 	public String setGender(String gender) {
@@ -31,10 +29,9 @@ public class Cricket {
 		return reward;
 	}
 
-	public void printData()
-	{
-		System.out.println("country is " +this.country);
-		System.out.println("Captain is " +this.captain);
-		System.out.println("Gender is " +this.gender);
+	public void printData() {
+		System.out.println("country is " + this.country);
+		System.out.println("Captain is " + this.captain);
+		System.out.println("Gender is " + this.gender);
 	}
 }

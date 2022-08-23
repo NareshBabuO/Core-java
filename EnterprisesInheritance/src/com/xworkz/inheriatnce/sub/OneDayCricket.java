@@ -29,7 +29,7 @@ public class OneDayCricket extends Cricket {
 		System.out.println("The Match is good entertainment");
 		return true;
 	}
-	public void printData2()
+	public void printData()
 	{
 		super.printData();
 		System.out.println("the best batsman award goes to "+this.bestBatsman);

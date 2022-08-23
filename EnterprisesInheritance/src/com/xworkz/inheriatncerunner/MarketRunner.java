@@ -1,4 +1,4 @@
-package com.xworkz.inheriatnceRunner;
+package com.xworkz.inheriatncerunner;
 
 import com.xworkz.inheriatnce.sub.OnlineSuperMarket;
 import com.xworkz.inheriatnce.sub.SuperMarket;

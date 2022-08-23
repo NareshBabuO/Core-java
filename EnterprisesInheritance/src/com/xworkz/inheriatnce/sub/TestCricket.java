@@ -17,7 +17,7 @@ public class TestCricket extends Cricket {
 		return price;
 	}
 
-	public void printData1() {
+	public void printData() {
 		super.printData();
 		System.out.println("In testCricket The groundType is " + this.groundType);
 	}

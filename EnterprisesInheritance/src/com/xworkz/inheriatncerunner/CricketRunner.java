@@ -1,4 +1,4 @@
-package com.xworkz.inheriatnceRunner;
+package com.xworkz.inheriatncerunner;
 
 import com.xworkz.inheriatnce.sub.OneDayCricket;
 import com.xworkz.inheriatnce.sub.T20Cricket;
@@ -26,7 +26,7 @@ public class CricketRunner {
 		ct.entertainment();
 		ct.presentation(100000);
 		ct.setGroundType("reyGrass");
-		ct.printData1();
+		ct.printData();
 
 		System.out.println("+++++++++++++++++++++++++");
 		OneDayCricket odc = new OneDayCricket("Virat", "Bhuvi");
@@ -36,7 +36,7 @@ public class CricketRunner {
 		odc.entertainment();
 		odc.presentation(50000000);
 		odc.manOfSeries("Yuvraj shing");
-		odc.printData2();
+		odc.printData();
 		System.out.println("====================");
 		
 		T20Cricket t20=new T20Cricket();
@@ -46,7 +46,7 @@ public class CricketRunner {
 		t20.entertainment();
 		t20.manOfSeries("Virat");
 		t20.presentation(100000);
-		t20.printData3();
+		t20.printData();
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.xworkz.inheriatnceRunner;
+package com.xworkz.inheriatncerunner;
 
 import com.xworkz.inheriatnce.sub.TouchPad;
 import com.xworkz.inheritance.sup.Keyboard;
