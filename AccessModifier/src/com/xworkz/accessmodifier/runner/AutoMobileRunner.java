@@ -13,9 +13,9 @@ public class AutoMobileRunner {
 		am.setBrand("Kia");
 		double val=am.sellAccesscories("tyer");
 		System.out.println(val);
-		//am.printData();
 		
 		System.out.println("===============");
+		
 		HondaAutoMobile ham=new HondaAutoMobile(9.30,7.30);
 		ham.setType("4 Wheeler");
 		ham.setBrand("Honda");
