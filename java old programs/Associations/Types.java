@@ -1,0 +1,4 @@
+enum Types{
+	WOOD,PLASTIC,ALUMINIUM,GLASS;
+}
+	
