@@ -3,7 +3,7 @@ package com.xworkz.bridge.dao.runner;
 import com.xworkz.bridge.dao.CasinoDAO;
 import com.xworkz.bridge.dao.imple.CasinoDAOImple;
 import com.xworkz.bridge.dao.service.CasinoDAOService;
-import com.xworkz.bridge.dao.service.imp.CasinoDAOServiceImp;
+import com.xworkz.bridge.dao.service.imple.CasinoDAOServiceImp;
 
 public class CasinoRunner {
 

@@ -3,7 +3,7 @@ package com.xworkz.bridge.dao.runner;
 import com.xworkz.bridge.dao.TouristDAO;
 import com.xworkz.bridge.dao.imple.TouristDAOImple;
 import com.xworkz.bridge.dao.service.TouristService;
-import com.xworkz.bridge.dao.service.imp.TouristServiceImple;
+import com.xworkz.bridge.dao.service.imple.TouristServiceImple;
 import com.xworkz.bridge.exception.InvalidPlaceException;
 
 public class TouristRunner {

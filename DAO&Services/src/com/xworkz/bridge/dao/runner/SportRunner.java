@@ -3,7 +3,7 @@ package com.xworkz.bridge.dao.runner;
 import com.xworkz.bridge.dao.SportDAO;
 import com.xworkz.bridge.dao.imple.SportDAOImple;
 import com.xworkz.bridge.dao.service.SportService;
-import com.xworkz.bridge.dao.service.imp.SportDAOServiceImple;
+import com.xworkz.bridge.dao.service.imple.SportDAOServiceImple;
 
 public class SportRunner {
 
