@@ -12,7 +12,7 @@ public class CollectionRunner {
 		list.add("nandan");
 		list.add("sashoo");
 		list.add("Naresh");
-		list.add("Babu");
+		list.add("MSD");
 
 		System.out.println(list);
 		list.remove(3);
