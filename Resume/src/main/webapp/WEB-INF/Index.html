@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 style="color: orange">Job application</h1>
+	<form action="resume">
+		<fieldset>
+			<legend>Enter name: </legend>
+			<div>
+				<input type="text" id="name" name="name"> &nbsp;
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Enter email: </legend>
+			<div>
+				<input type="email" placeholder="email" id="email" name="email">
+				&nbsp;
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Enter No:</legend>
+			<div>
+				<input type="number" id="num" name="number">
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>alternate No:</legend>
+			<div>
+				<input type="number" id="num1" name="number1">
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Select a Gender:</legend>
+
+			<div>
+				<input type="radio" id="male" name="gender" value="male" checked>
+				<label for="male">Male</label>
+			</div>
+
+			<div>
+				<input type="radio" id="female" name="gender" value="female">
+				<label for="female">Female</label>
+			</div>
+
+			<div>
+				<input type="radio" id="other" name="gender" value="other">
+				<label for="other">Other</label>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>select the Qualification</legend>
+			<select name="Stream" id="Stream">
+				<option selected="selected">BE</option>
+				<option selected="selected">BSc</option>
+				<option selected="selected">MSc</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>select year of pass</legend>
+			<select name="yearOfPass" id="passyear">
+				<option selected="selected">2021</option>
+				<option selected="selected">2022</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>select the University</legend>
+			<select name="college" id="College">
+				<option selected="selected">Tumkur University</option>
+				<option selected="selected">Banglore University</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Enter Address</legend>
+			<textarea id="address" name="address" rows="5" cols="20"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Select you Skills:</legend>
+<input type ="checkbox" id = "core java" name = "skills" value = "Core Java">
+<label for="core java">Core java</label> &nbsp;&nbsp;&nbsp;
+
+<input type ="checkbox" id ="collection"name = "skills1" value = "Collection" >
+<label for="core java">Collection</label>&nbsp;&nbsp;&nbsp;
+
+<input type ="checkbox" id ="exception"name = "skills2" value ="Exception handling">
+<label for="core java">Exception handling</label><br>
+
+<input type ="checkbox" id ="servlet" name = "skills3" value = "Servlet">
+<label for="core java">Servlet</label>&nbsp;&nbsp;&nbsp;
+
+<input type ="checkbox" id ="spring" name = "skills4" value ="Spring">
+<label for="core java">Spring</label>&nbsp;&nbsp;&nbsp;
+
+<input type ="checkbox" id ="sql" name = "skills5" value ="SQL">
+<label for="sql">SQL</label><br>
+
+<input type ="checkbox" id ="git" name = "skills6" value ="GIT HUB">
+<label for="sql">GIT HUB</label>&nbsp;&nbsp;&nbsp;
+
+<input type ="checkbox" id ="spring boot" name = "skills7" value ="Spring Boot">
+<label for="sql">Spring Boot</label>&nbsp;&nbsp;&nbsp;
+
+<input type ="checkbox" id ="html"name = "skills8" value ="HTML">
+<label for="sql">HTML</label><br>
+
+<input type ="checkbox" id ="js" name = "skills9" value ="JavaScript">
+<label for="sql">JavaScript</label>&nbsp;&nbsp;&nbsp;
+
+<input type ="checkbox" id ="css" name = "skills10" value ="CSS">
+<label for="sql">CSS</label>&nbsp;&nbsp;&nbsp;
+
+<input type ="checkbox" id ="eclipse" name = "skills11" value ="Eclipse">
+<label for="sql">Eclipse</label><br>
+
+<input type ="checkbox" id ="JDBC" name = "skills12" value ="JDBC">
+<label for="JDBC">JDBC</label>&nbsp;&nbsp;&nbsp;
+
+<input type ="checkbox" id ="Hibernate" name = "skills13" value ="Hibernate">
+<label for="Hibernate">J2EE</label>&nbsp;&nbsp;&nbsp;
+
+<input type ="checkbox" id ="Apache Tomcat 9" name = "skills14" value ="Apache Tomcat 9">
+<label for="Apache Tomcat 9">Apache Tomcat 9</label><br>
+			</fieldset>
+         <fieldset>
+		<legend>Expected Salary:</legend>
+		<input type="text" id="package" name="Salary">
+		<br></fieldset>
+		
+		<fieldset>
+			<legend>Total Experience</legend>
+			<select name="TotalExp" id="TotalExp">
+				<option selected="selected">0</option>
+				<option selected="selected">1</option>
+				<option selected="selected">2</option>
+				<option selected="selected">3</option>
+				<option selected="selected">4</option>
+				<option selected="selected">5</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Id proof</legend>
+			<select name="idproof" id="idproof">
+				<option selected="selected">Pan card</option>
+				<option selected="selected">Aadhaar card</option>
+			</select>
+		</fieldset>
+		<fieldset>
+		<legend>Id proof No</legend>
+		<input type="number" id="card" name="cardNo"></fieldset>
+		<br><center>
+		 <input type="submit" value="click"></center>
+	</form>
+</body>
+</html>
