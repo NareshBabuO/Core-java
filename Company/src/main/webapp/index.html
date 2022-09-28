@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Company Details</title>
+</head>
+<body>
+	<a href="show details"> Show details</a>
+	<br>
+	<form action="company" method="post"> 
+	<legend> Company Name: </legend>
+	<div>
+		<input type="text" id="name" name="Name">
+	</div>
+	<legend> Founder: </legend>
+	<div>
+		<input type="text" id="founder" name="Founder">
+	</div>
+	<legend> Since: </legend>
+	<div>
+		<input type="text" id="since" name="Since">
+	</div>
+	<legend> Employees: </legend>
+	 <Select name="employees">
+		<option>----Select Employees----</option>
+		<option value="1-10">1-10</option>
+		<option value="10-25">10-25</option>
+		<option value="25-50">25-50</option>
+		<option value="50-100">50-100</option>
+	</Select> <br>
+	<br>
+	<legend> Address:</legend> 
+	<textarea id="address" name="Address"
+		rows="5" cols="20"></textarea>
+		 <legend>Business:</legend> 
+		 <select name="business">
+		<option>----Select Business----</option>
+		<option value="1-10">Aplication Devlopment</option>
+		<option value="10-25">Software Devlopment</option>
+		<option value="25-50">Marketing</option>
+	</select><br><br>
+	<input type = "submit"  value="click"/>
+	</form>
+</body>
+</html>
