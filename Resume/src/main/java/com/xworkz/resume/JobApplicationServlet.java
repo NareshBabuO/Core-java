@@ -18,7 +18,7 @@ public class JobApplicationServlet extends HttpServlet {
 
 //	private ArrayList<JobDTO> dtos=new ArrayList<JobDTO>();
 //	public ResumeServlet() 
- private List <JobApplicationDTO> dtos = new ArrayList ();
+ private List <JobApplicationDTO> dtos = new ArrayList<JobApplicationDTO> ();
 
 	public JobApplicationServlet() {
 		System.out.println(this.getClass().getSimpleName());
@@ -57,34 +57,34 @@ public class JobApplicationServlet extends HttpServlet {
 		String idProof = req.getParameter("idproof");
 		String idProofNo = req.getParameter("cardNo");
 
-//		System.out.println("Name :" + name);
-//		System.out.println("E-mail :" + email);
-//		System.out.println("phoneno :" + phoneNo);
-//		System.out.println("altPhno :" + altPhNo);
-//		System.out.println("gen :" + gender);
-//		System.out.println("qualification :" + degree);
-//		System.out.println("yop :" + yop);
-//		System.out.println("University :" + university);
-//		System.out.println("address :" + address);
-//		System.out.println("skills :" + skill);
-//		System.out.println(s1);
-//		System.out.println(s2);
-//		System.out.println(s3);
-//		System.out.println(s4);
-//		System.out.println(s5);
-//		System.out.println(s6);
-//		System.out.println(s7);
-//		System.out.println(s8);
-//		System.out.println(s9);
-//		System.out.println(s10);
-//		System.out.println(s11);
-//		System.out.println(s12);
-//		System.out.println(s13);
-//		System.out.println(s14);
-//		System.out.println("salary :" + salary);
-//		System.out.println("exp :" + exp);
-//		System.out.println("idproof :" + idProof);
-//		System.out.println("idProofNo :" + idProofNo);
+		System.out.println("Name :" + name);
+		System.out.println("E-mail :" + email);
+		System.out.println("phoneno :" + phoneNo);
+		System.out.println("altPhno :" + altPhNo);
+		System.out.println("gen :" + gender);
+		System.out.println("qualification :" + degree);
+		System.out.println("yop :" + yop);
+		System.out.println("University :" + university);
+		System.out.println("address :" + address);
+		System.out.println("skills :" + skill);
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(s4);
+		System.out.println(s5);
+		System.out.println(s6);
+		System.out.println(s7);
+		System.out.println(s8);
+		System.out.println(s9);
+		System.out.println(s10);
+		System.out.println(s11);
+		System.out.println(s12);
+		System.out.println(s13);
+		System.out.println(s14);
+		System.out.println("salary :" + salary);
+		System.out.println("exp :" + exp);
+		System.out.println("idproof :" + idProof);
+		System.out.println("idProofNo :" + idProofNo);
 		
 		PrintWriter w =res.getWriter();
 		w.append("<html").append("<body>").append("<h1>").append("Registation Succussfully")
@@ -125,7 +125,6 @@ public class JobApplicationServlet extends HttpServlet {
 				Double.parseDouble(salary),Integer.parseInt(exp),idProof,idProofNo);
 		
 		dtos.add(dto);
-		System.out.println(dtos);
 
 	}
 
