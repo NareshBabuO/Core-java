@@ -70,6 +70,35 @@ public class HospitalRunner {
 		HospitalDTO hospitalDTO39 = new HospitalDTO(39, "Narayana Hospital", "Cardiac", "Devi Prasad Shetty", 2000);
 		HospitalDTO hospitalDTO40 = new HospitalDTO(40, "Sanjeevini Hospital", "multi-speciality",
 				"Dr. Subhash K Reddy", 2016);
+		HospitalDTO hospitalDTO41=new HospitalDTO(41,"columbia Asia","General","Dr.Chan Boon Kheng",1996);
+		HospitalDTO hospitalDTO42=new HospitalDTO(42,"Indira Gandhi","Childern","State Govt",1960);
+		HospitalDTO hospitalDTO43=new HospitalDTO(43,"Rajiv Gandhi","Cardio","State Govt",1996);
+		HospitalDTO hospitalDTO44=new HospitalDTO(44,"Sanjay Gandhi","General","State Govt",1996);
+		HospitalDTO hospitalDTO45=new HospitalDTO(45,"Narayana Hrudayalaya","Cardio","Devi Shetty",2001);
+		HospitalDTO hospitalDTO46=new HospitalDTO(46,"Vanivilas","women","Rama Shetty",1957);
+		HospitalDTO hospitalDTO47=new HospitalDTO(47,"Victoria","General","Shri KrishnaRaja Wodeyar",1900);
+		HospitalDTO hospitalDTO48=new HospitalDTO(48,"Kasturba","General","Malathi",1980);
+		HospitalDTO hospitalDTO49=new HospitalDTO(49,"A V hospital","General","Anuradha",2003);
+		HospitalDTO hospitalDTO50=new HospitalDTO(50,"Forties","General","Fortis Escorts",1996);
+		HospitalDTO hospitalDTO51=new HospitalDTO(51,"Aster","General","Azad Moopen",1987);
+		HospitalDTO hospitalDTO52=new HospitalDTO(52,"Amala","Cancer","Kuriakose Elias Charvara",1978);
+		HospitalDTO hospitalDTO53=new HospitalDTO(53, "Jaya Dev", "Cardio ", "C N Manjunath", 1972);
+		HospitalDTO hospitalDTO54=new HospitalDTO(54,"Kidwai","oncology","RaviVarma",1948);
+		HospitalDTO hospitalDTO55=new HospitalDTO(55,"Nimhans","Neuro","Mari Gowda",1974);
+		HospitalDTO hospitalDTO56=new HospitalDTO(56,"St.John","General","Catholic Bishops",1963);
+		HospitalDTO hospitalDTO57=new HospitalDTO(57,"Apollo","General","Prathap Reddy",1983);
+		HospitalDTO hospitalDTO58=new HospitalDTO(58,"Bowring","General","Jhon Bowring",1943);
+		HospitalDTO hospitalDTO59 = new HospitalDTO(59, "Shirdartha Hospital", "General Ward", "Rajeev shidartha", 1992);
+		HospitalDTO hospitalDTO60 = new HospitalDTO(60, "Shidanganga Hospital", "Multi-Speciality", "Dr shidarth", 2019);
+		HospitalDTO hospitalDTO61 = new HospitalDTO(61, "Soniya Hospital", "Multispeciality", "Dr. Monika Soniya", 2018);
+		HospitalDTO hospitalDTO62 = new HospitalDTO(62, "Altius ", "Kidney", "Ramesh Bettaiah",
+				2007);
+		HospitalDTO hospitalDTO63 = new HospitalDTO(63, "City Hospital", "K.Bhaskar", "dynamic surgeon",1975);
+		HospitalDTO hospitalDTO64 = new HospitalDTO(64, "D.G.Hospital", "D.G Benakappa","Surgeon",1985);
+
+		HospitalDTO hospitalDTO65 = new HospitalDTO(65, "Basaveshwara General Hospital ","Mahadevappa Rampure",
+				"radiology",2001);
+		HospitalDTO hospitalDTO66 = new HospitalDTO(66, "Vydehi Hospital", "D.K Audikeshav naidu","NeuroSurgey",2000);
 
 		HospitalService hs = new HospitalServiceImp();
 		hs.vaildateAndSave(hospitalDTO1);
@@ -112,7 +141,32 @@ public class HospitalRunner {
 		hs.vaildateAndSave(hospitalDTO38);
 		hs.vaildateAndSave(hospitalDTO39);
 		hs.vaildateAndSave(hospitalDTO40);
-
+		hs.vaildateAndSave(hospitalDTO41);
+		hs.vaildateAndSave(hospitalDTO42);
+		hs.vaildateAndSave(hospitalDTO43);
+		hs.vaildateAndSave(hospitalDTO44);
+		hs.vaildateAndSave(hospitalDTO45);
+		hs.vaildateAndSave(hospitalDTO46);
+		hs.vaildateAndSave(hospitalDTO47);
+		hs.vaildateAndSave(hospitalDTO48);
+		hs.vaildateAndSave(hospitalDTO49);
+		hs.vaildateAndSave(hospitalDTO50);
+		hs.vaildateAndSave(hospitalDTO51);
+		hs.vaildateAndSave(hospitalDTO52);
+		hs.vaildateAndSave(hospitalDTO53);
+		hs.vaildateAndSave(hospitalDTO54);
+		hs.vaildateAndSave(hospitalDTO55);
+		hs.vaildateAndSave(hospitalDTO56);
+		hs.vaildateAndSave(hospitalDTO57);
+		hs.vaildateAndSave(hospitalDTO58);
+		hs.vaildateAndSave(hospitalDTO59);
+		hs.vaildateAndSave(hospitalDTO60);
+		hs.vaildateAndSave(hospitalDTO61);
+		hs.vaildateAndSave(hospitalDTO62);
+		hs.vaildateAndSave(hospitalDTO63);
+		hs.vaildateAndSave(hospitalDTO64);
+		hs.vaildateAndSave(hospitalDTO65);
+		hs.vaildateAndSave(hospitalDTO66);
 	}
 
 }

@@ -24,6 +24,7 @@ public class HospitalServiceImp implements HospitalService {
 						System.out.println("Hospital Specialist is valid");
 						if (since > 1800 && since < 2023) {
 							System.out.println("Hospital since is valid");
+							System.out.println("All properties are valid ,can save into repository ");
 							HospitalRepository hr = new HospitalRepositoryImp();
 							hr.save(dto);
 						} else {
@@ -43,4 +44,5 @@ public class HospitalServiceImp implements HospitalService {
 		}
 		return false;
 	}
+
 }
