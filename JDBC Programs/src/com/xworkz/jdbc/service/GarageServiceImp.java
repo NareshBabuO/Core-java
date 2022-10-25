@@ -17,7 +17,7 @@ public class GarageServiceImp implements GarageService {
 			System.out.println("Name is vaild in Garage"); 
 			if(type !=null && type.length()>3 && type.length()<50) {
 				System.out.println("Type is valid in Garage");
-				if(loc !=null && loc.length()>7 && loc.length()<400) {
+				if(loc !=null && loc.length()>5 && loc.length()<400) {
 					System.out.println("Location is valid");
 					if(cost>0 && cost<4500000) {
 						System.out.println("Cost is valid in Garage");

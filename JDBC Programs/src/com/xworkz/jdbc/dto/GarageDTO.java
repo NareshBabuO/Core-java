@@ -15,10 +15,10 @@ import lombok.ToString;
 @Data
 public class GarageDTO {
 	
-	String name;
-	String location;
-	String type;
-	int cost;
+	private String name;
+	private String location;
+	private String type;
+	private int cost;
 	
 
 }

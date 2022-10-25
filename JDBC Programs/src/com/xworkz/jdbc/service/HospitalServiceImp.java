@@ -16,11 +16,11 @@ public class HospitalServiceImp implements HospitalService {
 		int since = dto.getSince();
 		if (id > 0 && id < 5000) {
 			System.out.println("Hospital id is valid");
-			if (name != null && name.length() > 5 && name.length() < 50) {
+			if (name != null && name.length() > 5 && name.length() < 100) {
 				System.out.println("Hospital name is valid");
-				if (founder != null && founder.length() > 3 && founder.length() < 30) {
+				if (founder != null && founder.length() > 3 && founder.length() < 300) {
 					System.out.println("Founder is valid");
-					if (spe != null && spe.length() > 3 && spe.length() < 30) {
+					if (spe != null && spe.length() > 3 && spe.length() < 300) {
 						System.out.println("Hospital Specialist is valid");
 						if (since > 1800 && since < 2023) {
 							System.out.println("Hospital since is valid");
